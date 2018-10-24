@@ -1,2 +1,2 @@
 # tecplotwrite
-Fortran module used to write tecplot binary or text format data file
+Fortran module used to write tecplot binary or text (ASCII) format data file
