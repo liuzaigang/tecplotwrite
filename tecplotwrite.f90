@@ -937,9 +937,9 @@ module tecplotwrite
 
         write(*,*) 'Success '
 
-        write(*,*) 'Compress data ...'
+        !write(*,*) 'Compress data ...'
 
-        call system("tar -zcvf "//trim(adjustL(data2Write%datatitle))//".tar.gz "//trim(adjustL(data2Write%datatitle)))
+        !call system("tar -zcvf "//trim(adjustL(data2Write%datatitle))//".tar.gz "//trim(adjustL(data2Write%datatitle)))
         
       end subroutine tecplot_write_ascii
 
